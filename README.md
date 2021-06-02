@@ -1,7 +1,7 @@
 # analyzing_movements
 Repository supplementing the paper "Supervised learning for analyzing movement patterns in  a virtual reality experiment" by Vogel et al.
 
-he folder traindata contains preprocessed data of the experiment in pythonic "pickle" format. The original data can be found at https://osf.io/rnz62. Preprocessed in this case means:
+The folder traindata contains preprocessed data of the experiment in pythonic "pickle" format. The original data can be found at https://osf.io/rnz62. Preprocessed in this case means:
 For the base study, data has been cut to have an equal number of time points per participant. A few participants had to be removed due to missing or defective tracking. 
 For the evaluation study, a few participants had to be removed due to missing data. 
 
