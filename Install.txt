@@ -1,0 +1,37 @@
+It is recommend to use Anaconda for Python: https://www.anaconda.com/
+
+Note: This code was established and executed using Windows. It might be the case that you have to
+adapt it if you prefer to use other operating systems.
+
+Required libraries: eval_base_study.py and eval_validation_study.py need
+
+- Tensorflow
+- Scikit-learn
+
+to be installed. 
+1. Please create a new conda environment using
+	conda create --name myenv
+   where - myenv - is replaced by your name of choice. 
+
+2. Activate the environment by calling 
+	conda activate myenv
+
+3. Afterward, install Tensorflow by calling
+	conda install tensorflow
+   or see https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/for installation options.
+   Similarly, install Scikit-learn by calling
+	conda install scikit-learn
+
+
+For example plots, as in data_plot.py, lda_svm_plot.py, segments_plot.py, whole_sessions_plot.py, install similarly
+
+-Matplotlib
+-Pydotplus
+-Pandas
+-Seaborn
+
+in the same environment.
+
+Note: For our investigations, we used Tensorflow 2.3. It might be the case that you have to adapt the code, if you 
+prefer to choose another version.
+
