@@ -28,3 +28,12 @@ algorithm.
 Note: Since selection of training and testing sets as well as choice of segments is random, your results will most likely not match the ones listed in the paper exactly. 
 
 The module eval_validation_study.py analogously contains methods for reproducing the results listed int the Reproducibility section of the paper. 
+
+Plots:
+The module data_plot.py contains the code for plotting figures 1, 2, 4, and 10.
+The module lda_svm_plots.py contains the code for plotting figure 3.
+The module segments_plot.py contains the code for plotting figure 8.
+The module whole_sessions_plot.py contains the code for plotting figure 7.
+The module validation_study_plot.py contains the code for plotting figure 9.
+
+Note: Figures 7,8,9 are based on the selection of random training and testing (as mentioned above). Therefore, a reproduction (via prepare_results_for_plot_segments or /whole_sessions) will result in similar, but most likely not the exact same results as displayed in the above code scripts. 
